@@ -36,8 +36,7 @@ Transfer/sec:    606.33MB
 
 Command Line Options
 
--c, --connections: total number of HTTP connections to keep open with
-                   each thread handling N = connections/threads
+-c, --connections: total number of HTTP connections to keep open with each thread handling N = connections/threads
 
 -d, --duration:    duration of the test, e.g. 2s, 2m, 2h
 
@@ -47,7 +46,6 @@ Command Line Options
 
 -H, --header:      HTTP header to add to request, e.g. "User-Agent: wrk"
 
-    --latency:     print detailed latency statistics
+--latency:     print detailed latency statistics
 
-    --timeout:     record a timeout if a response is not received within
-                   this amount of time.
+--timeout:     record a timeout if a response is not received within this amount of time.
